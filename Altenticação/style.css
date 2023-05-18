@@ -1,0 +1,4 @@
+.message-email, .message-password, .message-confirmPassword, 
+.message-fields-pswd {
+    display: none;
+}
