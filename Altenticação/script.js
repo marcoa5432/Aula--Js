@@ -24,7 +24,8 @@ if(confirmPassword.value =='') {
     messageConfirmPassword[0].classList.add('show-message');
 }
 
-if(password.value == confirmPassword.value) {
+if(password.value != confirmPassword.value) {
+    messageCheckPassword[0].classList.add('show-message');
 
 }
 
