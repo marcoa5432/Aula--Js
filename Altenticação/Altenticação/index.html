@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Autenticacao</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <form>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" onchange="guardarTexto()"> <br>
+            <span class="message-email">Preencha o campo Email</span>
+
+            <label for="password">Senha: </label>
+            <input type="password" name="password" id="password"> <br>
+            <span class="message-password">Preencha o campo Senha</span>
+
+            <label for="confirmPassword">Confirmar Senha: </label>
+            <input type="password" name="confirmPassword" id="confirmPassword"> <br>
+            <span class="message-confirmPassword">Preencha o campo Confirmar Senha</span>
+            <span class="message-fields-pswd">Confira os campos Senha e Confirmar Senha</span>
+
+            <input type="submit" value="Cadastrar" onclick="validarFormulario(event)">
+        </form>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
